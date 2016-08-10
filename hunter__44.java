@@ -10,7 +10,7 @@ n=s.nextInt();
 int[] a=new int[n];
 for(int i=0;i<n;i++)
 {
-a[i]=a.nextInt();
+a[i]=s.nextInt();
 }int count=0;boolean flag=false;
 for(int j=0;j<n;j++)
 {count=0;
@@ -21,11 +21,11 @@ if(b==a[k])
 {
 count++;
 }
+}
 if(count==1)
 {
 flag=true;
 System.out.println(a[k]);
-}
 }
 }
 if(!flag)
