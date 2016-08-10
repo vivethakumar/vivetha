@@ -17,7 +17,7 @@ for(int j=0;j<a2.length;j++)
 {
  s2+=String.valueOf(a2[j]);
 }
-Sytem.out.println(s1+" "+s2);
+System.out.println(s1+" "+s2);
 if(a1.length<a2.length)
 {
 for(int i=0;i<s2.length();i++)
