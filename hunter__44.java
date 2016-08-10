@@ -25,7 +25,7 @@ count++;
 if(count==1)
 {
 flag=true;
-System.out.println(a[k]);
+System.out.println(b);
 }
 }
 if(!flag)
