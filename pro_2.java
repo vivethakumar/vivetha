@@ -17,7 +17,7 @@ for(int j=i+1;j<a.length;j++)
 {
 if(Integer.parseInt(a[i])<Integer.parseInt(a[j]))
 {
-int temp=a[i];
+String temp=a[i];
 a[i]=a[j];
 a[j]=temp;
 }
@@ -30,7 +30,7 @@ for(int i=0;i<a.length;i++)
 {
 ss+=a[i];
 }StringBuffer str=new StringBuffer(ss);
-for(int i=a.length-1;i>k;i--)
+for(int i=a.length-1;i>k-1;i--)
 {ss="";
 str=str.deleteCharAt(i);
 }
