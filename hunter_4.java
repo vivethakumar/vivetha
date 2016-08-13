@@ -26,6 +26,7 @@ if(a[k]==a[i])
 flag=true;break;
 }
 }
+}
 if(!flag)
 {
 for(int j=0;j<n;j++)
@@ -36,6 +37,7 @@ count++;
 }
 if(count==1)
 System.out.println(a[i]);
+}
 }
 else
 System.out.println("wrong");
