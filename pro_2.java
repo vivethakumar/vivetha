@@ -8,8 +8,9 @@ int n=s.nextInt();
 int k=s.nextInt();
 String s1=String.valueOf(n),ss="";
 String[] a=s1.split("");
-if(n>0)
-{
+boolean flag=false;
+if(n>9)
+{flag=true;
 for(int i=0;i<a.length;i++)
 {
 for(int j=i+1;j<a.length;j++)
@@ -23,6 +24,8 @@ a[j]=temp;
 }
 }
 }
+if(flag)
+{
 for(int i=0;i<a.length;i++)
 {
 ss+=a[i];
@@ -33,6 +36,7 @@ str=str.deleteCharAt(i);
 }
 ss=str.toString();
 n=Integer.ParseInt(ss);
+}
 System.out.println(n);
 }
 }
