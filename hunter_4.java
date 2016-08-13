@@ -17,9 +17,9 @@ for(int i=0;i<n;i++)
 {
 count=0;
 boolean flag=false;
-if(i>1)
+if(i>=1)
 {
-for(int k=0;k<9;k++)
+for(int k=0;k<i;k++)
 {
 if(a[k]==a[i])
 {
