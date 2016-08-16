@@ -19,7 +19,7 @@ class hunter_11
        {
        if(str.equalsIgnoreCase("SUNDAY")||str.equalsIgnoreCase("SATURDAY"))
           b=false;
-          System.out.println(b);
        }
+          System.out.println(b);
    }
 }
