@@ -14,7 +14,7 @@ if(s1.length()==s2.length())
 for(int i=0;i<s1.length();i++)
 {
 char a=s1.charAt(i);
-char b=s1.charAt(i);
+char b=s2.charAt(i);
 if(Character.isAlphabetic(a)&&Character.isAlphabetic(b))
 {
 for(int k=0;k<s1.length();k++)
@@ -29,7 +29,6 @@ else
 {
 flag=false;
 break;
-}
 }
 }
 }
