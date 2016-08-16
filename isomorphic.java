@@ -19,7 +19,7 @@ if(Character.isAlphabetic(a)&&Character.isAlphabetic(b))
 {
 for(int k=0;k<s1.length();k++)
 {
-index1=s1.indexOf(a,index+1);
+index1=s1.indexOf(a,index1+1);
 index2=s2.indexOf(b,index2+1);
 if(index1==index2)
 {
