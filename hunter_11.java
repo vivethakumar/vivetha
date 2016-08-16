@@ -9,7 +9,7 @@ class hunter_11
        String[] a={"SUNDAY","MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY"};
        for(int i=0;i<a.length;i++)
        {
-          if(str.equalsIgnoreCase(a[i])
+          if(str.equalsIgnoreCase(a[i]))
               {
                  c=true;
                  break;
