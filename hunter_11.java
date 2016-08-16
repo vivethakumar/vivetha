@@ -1,7 +1,7 @@
 import java.util.*;
 class hunter_11
 {
-   public static void main(String[] args[])
+   public static void main(String args[])
    {
        Scanner s=new Scanner(System.in);
        String str=s.nextLine();
@@ -18,8 +18,11 @@ class hunter_11
        if(c)
        {
        if(str.equalsIgnoreCase("SUNDAY")||str.equalsIgnoreCase("SATURDAY"))
-          b=false;
+          System.out.println(false);
+          else
+          System.out.println(true);
        }
-          System.out.println(b);
+       else
+          System.out.println("wrong input");
    }
 }
