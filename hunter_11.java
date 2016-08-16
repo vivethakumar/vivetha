@@ -5,7 +5,7 @@ class hunter_11
    {
        Scanner s=new Scanner(System.in);
        String str=s.nextLine();
-       boolean b=false,c=false;
+       boolean b=true,c=false;
        String[] a={"SUNDAY","MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY"};
        for(int i=0;i<a.length;i++)
        {
