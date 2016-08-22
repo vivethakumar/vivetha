@@ -18,7 +18,7 @@ class hunter_7
      set.put(a[i],set.get(a[i])+1);
    }
    Set ss=set.entrySet();
-   Iterator it=set.iterator();
+   Iterator it=ss.iterator();
    while(it.hasNext())
    {
      Map.Entry e=(Map.Entry)it.next();
