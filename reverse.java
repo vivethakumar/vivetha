@@ -1,5 +1,5 @@
 import java.util.*;
-class hunter_11_reverse
+class reverse
 {
    public static void main()
    {
