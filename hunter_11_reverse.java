@@ -9,7 +9,10 @@ class hunter_11_reverse
    if(ss.length>1)
    {
    for(int i=ss.length-1;i>=0;i--)
-   System.out.print(ss[i]+(i==ss.length-1?"":" "));
+   {
+   System.out.print(ss[i]);
+   System.out.print((i==0)?"":" ");
+   }
    }
    else
    System.out.println(str);
