@@ -5,8 +5,13 @@ class hunter_11_reverse
    {
    Scanner s=new Scanner(System.in);
    String str=s.nextLine();
-   StringBuffer s1=new StringBuffer(str);
-   s1.reverse();
-   System.out.println(s1.toString());
+   String ss[]=str.split(" ");
+   if(ss.length>1)
+   {
+   for(int i=ss.length-1;i>=0;i--)
+   System.out.print(ss[i]+(i==ss.length-1?"":" "));
+   }
+   else
+   System.out.println(str);
    }
 }
