@@ -7,6 +7,7 @@ class player_14
      String str=s.nextLine();
      StringBuffer s1=new StringBuffer(str);
      s1=s1.reverse();
+     System.out.println("output1:"+s1);
      char a[]={'a','e','i','o','u'};
      if(s1.length()>=1)
      {
@@ -23,6 +24,6 @@ class player_14
         }
      }
      }
-     System.out.println(s1.toString());
+     System.out.println("output2:"+s1.toString());
   }
 }
