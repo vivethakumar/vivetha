@@ -1,5 +1,5 @@
 import java.util.*;
-public class pro
+public class pro_37
 {
    public static void main(String args[])
    {
