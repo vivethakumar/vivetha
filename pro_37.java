@@ -1,5 +1,5 @@
 import java.util.*;
-public class pro_37
+class pro_37
 {
    public static void main(String args[])
    {
@@ -37,11 +37,11 @@ public class pro_37
             if(!prime.contains(sum))
             {
                prime.add(sum);
-               p1.add(sum);
+               p1.add(i);
             }
             else
             {
-            p2.add(sum);
+            p2.add(i);
             }
          }
          }
