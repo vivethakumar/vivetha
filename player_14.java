@@ -5,8 +5,11 @@ class player_14
   {
      Scanner s=new Scanner(System.in);
      String str=s.nextLine();
-     StringBuffer s1=new StringBuffer(s).reverse();
+     StringBuffer s1=new StringBuffer(str);
+     s1=s1.reverse();
      char a[]={'a','e','i','o','u'};
+     if(s.length()>=1)
+     {
      for(int i=0;i<s1.length();i++)
      {
         for(int j=0;j<a.length;j++)
@@ -15,6 +18,7 @@ class player_14
         i--;
         break;
         }
+     }
      }
      System.out.println(s1.toString());
   }
