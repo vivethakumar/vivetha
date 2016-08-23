@@ -7,7 +7,7 @@ class pro_37
       ArrayList<Long> p1=new ArrayList<Long>();
       ArrayList<Long> p2=new ArrayList<Long>();
       long sum=0;
-      for(long i=2;i>1;i++)
+      for(long i=2;i<100;i++)
       {
          boolean b1=true;
          for(long j=2;j<2;j++)
