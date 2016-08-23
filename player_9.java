@@ -18,6 +18,8 @@ class player_9
      max=num2;
      min=num1;
      }
+     if(num1>0&&num2>0)
+     {
      for(int i=min;i<=max;i++)
      {
         boolean flag=true;
@@ -30,6 +32,7 @@ class player_9
         }
         if(flag)
         count++;
+     }
      }
      System.out.println(count);
   }
