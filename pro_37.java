@@ -10,7 +10,7 @@ class pro_37
       for(long i=2;i<100;i++)
       {
          boolean b1=true;
-         for(long j=2;j<2;j++)
+         for(long j=2;j<i;j++)
          {
             if(i%j==0)
             {
