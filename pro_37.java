@@ -7,7 +7,7 @@ class pro_37
       ArrayList<Long> p1=new ArrayList<Long>();
       ArrayList<Long> p2=new ArrayList<Long>();
       long sum=0;
-      for(long i=2;i<=1000000000;i++)
+      for(long i=2;i>1;i++)
       {
          boolean b1=true;
          for(long j=2;j<2;j++)
@@ -19,8 +19,10 @@ class pro_37
          }
          if(b1)
          {
-            if(i>9)
+            sum=i;
+            if(sum>9)
             {
+                sum=0;
                 long num=i;
                 while(num!=0)
                 {
@@ -28,8 +30,6 @@ class pro_37
                   num=num/10;
                 }
             }
-         else
-         sum=i;
          if(sum>=100)
          break;
          else
@@ -40,9 +40,7 @@ class pro_37
                p1.add(i);
             }
             else
-            {
             p2.add(i);
-            }
          }
          }
       }
