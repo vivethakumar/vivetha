@@ -8,6 +8,8 @@ class player_9
      int num2=s.nextInt();
      int min=0,max=0;
      int count=0;
+     num1=(num1<=0)?1:num1;
+     num2=(num2<=0)?1:num2;
      if(num1>num2)
      {
      max=num1;
@@ -18,12 +20,6 @@ class player_9
      max=num2;
      min=num1;
      }
-     if(min<=0)
-     {
-       min=1;
-     }
-     else if(max<=0)
-     max=1;
      for(int i=min;i<=max;i++)
      {
         boolean flag=true;
