@@ -8,15 +8,18 @@ class player_14
      StringBuffer s1=new StringBuffer(str);
      s1=s1.reverse();
      char a[]={'a','e','i','o','u'};
-     if(s.length()>=1)
+     if(s1.length()>=1)
      {
      for(int i=0;i<s1.length();i++)
      {
         for(int j=0;j<a.length;j++)
         {
+          if(s1.charAt(i)==a[j])
+          {
         s1=s1.deleteCharAt(i);
         i--;
         break;
+          }
         }
      }
      }
