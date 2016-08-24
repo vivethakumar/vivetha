@@ -22,13 +22,13 @@ class player_42
             b=false;
             break;
             }
-          }
-        }
-        else
-           System.out.println("invalid");
+         }
         if(b)
           System.out.println("array is in sorted  order");
         else
            System.out.println("array is not in sorted order");
+      }
+      else
+         System.out.println("invalid");
    }
 }
