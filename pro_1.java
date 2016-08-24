@@ -9,18 +9,19 @@ class pro_1
          for(int i=0;i<n;i++)
             s1[i]=s.next();
         String sub="",submax="";
-        for(int i=0;i<s1.length();i++)
+        int count=0,max=0;
+        for(int i=0;i<s1.length;i++)
         {
              for(int j=i+1;j<s1.length;j++)
              {
                  sub="";count=0;
                  for(int k=0;k<s1[i].length()&&k<s1[j].length();k++)
                  {
-                     if(s1[i].charAt(0)==s1[j].charAt[0])
+                     if(s1[i].charAt(0)==s1[j].charAt(0))
                      {
-                        if(s1[i].char[k]==s1[j].charAt[k])
+                        if(s1[i].charAt(k)==s1[j].charAt(k))
                         { 
-                           sub+=s1[i].charAt[k];
+                           sub+=s1[i].charAt(k);
                            count++;
                         }
                         else
