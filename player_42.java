@@ -29,6 +29,6 @@ class player_42
         if(b)
           System.out.println("array is in sorted  order");
         else
-           System.out.println("array is not insorted order");
+           System.out.println("array is not in sorted order");
    }
 }
