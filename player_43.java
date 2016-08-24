@@ -4,7 +4,7 @@ class player_43
     public static void main(String args[])
     {
       Scanner s=new Scanner(System.in);
-      String x= s.nextLine;
+      String x= s.nextLine();
       String y=s.nextLine();
       if(y.length()<=x.length())
       {
