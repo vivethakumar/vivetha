@@ -7,22 +7,23 @@ class player_41
       String s=sc.nextLine();
       String t=sc.nextLine();
       boolean b=false;
+       int index1=-1,index2=-1;
       if(s.length()==t.length())
       {
          for(int i=0;i<s.length();i++)
          {
-            if(Character.isAlphabetic(s.charAt(i))&&Character.isAlphabetic(t.charAt(i))
+            if(Character.isAlphabetic(s.charAt(i))&&Character.isAlphabetic(t.charAt(i)))
             {
-            int index1=-1,index2=-1;
-           b=false;
                 for(int j=0;j<s.length();j++)
                 {
-                   int index1=s.indexOf(s.charAt(j),index1+1);
-                   int index2=s.indexOf(t.charAt(j),index2+1);
+                   index1=s.indexOf(s.charAt(i),index1+1);
+                   index2=t.indexOf(t.charAt(i),index2+1);
                    if(index1!=-1&&index2!=-1)
                    {
                        if(index1==index2)
-                          b=true;
+                        {
+                           b=true;
+                        }
                         else
                         {
                           b=false;break;
@@ -34,6 +35,8 @@ class player_41
                 {
                 b=false;break;
                 }
+            if(!b)
+            break;
           }
       }
       if(b)
