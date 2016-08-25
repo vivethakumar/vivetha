@@ -27,6 +27,7 @@ class hunter_1
             if(a1.size()>0)
             {
                Iterator it=a1.iterator();
+               System.out.println("repeated integers are:");
                while(it.hasNext())
                   {
                     System.out.println(it.next());
