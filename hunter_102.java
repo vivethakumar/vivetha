@@ -13,7 +13,7 @@ class hunter_102
         for(int i=0;i<s1.length;i++)
         {
            for(int j=0;j<=i;j++)
-              n+=Integer.parseInt(s1[j]));
+              n+=Integer.parseInt(s1[j]);
         }
         System.out.println(n);
         }
