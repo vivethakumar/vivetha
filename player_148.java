@@ -3,10 +3,12 @@ class player_148
 {
       public static void main(String[] args)
       {
-         Scanner s=new Scanner(Syste.in);
+         Scanner s=new Scanner(System.in);
          int n=s.nextInt();
          String str="";
-         for(int i=0;i<n;i++)
+         if(n>0)
+         {
+         for(int i=0;i<=n;i++)
          {
              if(i%2!=0)
                  str+=String.valueOf(i);
@@ -21,5 +23,8 @@ class player_148
                n+=b;
          }
          System.out.println(n);
+         }
+         else
+            System.out.println("invalid");
       }
 }
